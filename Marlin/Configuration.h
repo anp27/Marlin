@@ -137,7 +137,7 @@
 #define EXTRUDERS 2
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
-#define DEFAULT_NOMINAL_FILAMENT_DIA 3.0
+#define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
 
 // For Cyclops or any "multi-extruder" that shares a single nozzle.
 //#define SINGLENOZZLE
@@ -1709,7 +1709,7 @@
  * LED Type. Enable only one of the following two options.
  *
  */
-//#define RGB_LED
+#define RGB_LED
 //#define RGBW_LED
 
 #if ENABLED(RGB_LED) || ENABLED(RGBW_LED)
